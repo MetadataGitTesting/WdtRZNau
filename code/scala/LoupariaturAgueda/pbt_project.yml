@@ -1,0 +1,71 @@
+name: alta.bayer
+description: contextually-based
+version: 0.0.1
+author: mz4orld6.qbqsjgcq@j9upskuk.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: altabayer
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2026-03-06 12:42:24'
+pipelines:
+  pipelines/pipeline1:
+    name: pipeline1
+    description: Really solid info
+    author: mz4orld6.qbqsjgcq@j9upskuk.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2026-03-06 12:42:24'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2026-03-06 12:42:24'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules:
+    businessRules/br1:
+      name: br1
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: mz4orld6.qbqsjgcq@j9upskuk.com
+      createdAt: '2022-12-15 18:04:50'
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2026-03-06T12:42:24.728082Z'
+  name: plibMaven
+  version: 9.1.0-SNAPSHOT
+  id: '131777937'
+  createdAt: '2026-03-06T12:42:24.728082Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
